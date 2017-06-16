@@ -1,0 +1,57 @@
+html{box-sizing:border-box}
+body{margin:0}
+article,footer,header,main,section{display:block}
+html,body{font-size:16px;line-height:1.2}
+body,h1,h2,h3,h4,h5{font-family: "Raleway", sans-serif}
+.container{padding:0.01em 16px; background-color: #e6e6e6;}
+.center{text-align:center}
+.boxShadow{box-shadow:0 4px 3px 0 rgba(0,0,0,0.2)}
+.margin{margin:16px}
+.background{color:#fff;background-color:#616161}
+
+
+/* Set all odd list items to a different color (zebra-stripes) */
+ul li {padding: 0.2rem 0.5rem;}
+ul li:nth-child(odd) { background: #f9f9f9;}
+ul li:nth-child(even) { background: #e6f3ff;}
+
+/* Darker background-color on hover */
+ul li:hover {background: #abc;}
+
+/* style for html form */
+/* Add a background color and some padding around the form */
+.form-container {
+    border-radius: 5px;
+    background-color: #f2f2fe;
+    padding: 1rem 2rem 2rem;
+    margin: 1rem;
+    border: solid 1px #ccd;
+}
+
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-bottom: 16px;
+}
+
+input[type=radio] {
+  padding:0.5rem;
+  margin-bottom: 16px;
+}
+
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 30px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* When mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+    background-color: #45a049;
+}

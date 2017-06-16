@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Assignment 1</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="./styles/style.css">
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Raleway">
+  </head>
+
+  <body>
+    <header class="container background center ">
+      <h2><b>HTML API - Assignment 1</b></h2>
+    </header>
+
+    <!--  New-Task form -->
+     <div class="form-container">
+      <form>
+        <h4>TODO App</h4>
+        <label for="task-desc">Task Name</label>
+        <input type="text" id="task-desc" name="taskdesc" placeholder="Task Description" required>
+
+        <label for="level">Dificult Level</label>
+        <select id="level" name="level">
+          <option value="Easy">Easy</option>
+          <option value="Medium">Medium</option>
+          <option value="Hard">Hard</option>
+        </select>
+
+        <fieldset>
+          <legend>Assigned To?</legend>
+          <label>
+            <input type="radio" id="jen"  name="assignedTo" value="Jen" checked> Jen
+          </label>
+          <label> 
+            <input type="radio" id="thomas" name="assignedTo" value="Thomas"> Thomas
+          </label>
+          <label> 
+            <input type="radio" id="lucy" name="assignedTo" value="Lucy"> Lucy
+          </label>
+          <label> 
+            <input type="radio" id="justin" name="assignedTo" value="Justin"> Justin
+          </label>
+        </fieldset>
+        <br>
+        <input type="submit" value="Add" >
+      </form>
+    </div>
+
+	<!--  Tasks List -->
+    <div class="boxShadow margin">
+      <div class="container">
+        <h3><b>TODO List</b></h3>
+        <div id="list-container">
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="container background">
+    	<p>PTran - Assignment 1 - Jun 16, 2017</p>
+    </footer>
+
+    <script type="text/javascript" src="js/script.js"></script>
+  </body>
+</html>
