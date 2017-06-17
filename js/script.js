@@ -5,13 +5,13 @@ google.charts.setOnLoadCallback(drawChart1);
 google.charts.setOnLoadCallback(drawChart2);
 
 var levelCounter = {
-  Easy: 0,  // default task assigned as Easy
+  Easy: 0, 
   Medium: 0,
   Hard: 0
 }
 
 var whomCounter = {
-  Jen: 0,  //default task assigned to Jen
+  Jen: 0, 
   Thomas: 0,
   Lucy: 0,
   Justin: 0
