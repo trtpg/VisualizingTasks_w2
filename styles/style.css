@@ -10,7 +10,7 @@ body,h1,h2,h3,h4,h5{font-family: "Raleway", sans-serif}
 .background{color:#fff;background-color:#616161}
 
 /* chart area */
-.chart{display: block;margin: auto; width: 80%}
+.chart{display: block;margin: auto; width: 95%}
 
 /* Set all odd list items to a different color (zebra-stripes) */
 ul li {padding: 0.2rem 0.5rem;}

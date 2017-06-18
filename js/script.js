@@ -5,13 +5,13 @@ google.charts.setOnLoadCallback(drawChart1);
 google.charts.setOnLoadCallback(drawChart2);
 
 var levelCounter = {
-  Easy: 0, 
+  Easy: 0,
   Medium: 0,
   Hard: 0
 }
 
 var whomCounter = {
-  Jen: 0, 
+  Jen: 0,
   Thomas: 0,
   Lucy: 0,
   Justin: 0
@@ -24,6 +24,7 @@ var TODO = {
 
 // Will run after all HTML is done rendering
 window.onload = function(){
+
   drawList();
   var form = document.querySelector("form");
   form.onsubmit = taskBuilder;
@@ -75,6 +76,7 @@ function taskBuilder() {
 
   drawChart1(); // donut chart
   drawChart2(); // bar chart
+  form.reset(); // reset form
 }
 
 function drawChart1() {
@@ -94,7 +96,7 @@ function drawChart1() {
 
   // Set chart options
   var options = {'title':'Task Difficult Level Distribution',
-                 'width':500,
+                 'width':450,
                  'height':300,
                   pieHole:0.2};
 
@@ -108,7 +110,7 @@ function drawChart2() {
 
   // Set chart options
   var options = {title:'Barchart: How Many Task assigned to each Person',
-                       width:500,
+                       width:450,
                        height:300,
                        legend: 'none'};
 
