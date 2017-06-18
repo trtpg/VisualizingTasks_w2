@@ -96,7 +96,7 @@ function drawChart1() {
 
   // Set chart options
   var options = {'title':'Task Difficult Level Distribution',
-                 'width':450,
+                 'width':420,
                  'height':300,
                   pieHole:0.2};
 
@@ -110,7 +110,7 @@ function drawChart2() {
 
   // Set chart options
   var options = {title:'Barchart: How Many Task assigned to each Person',
-                       width:450,
+                       width:420,
                        height:300,
                        legend: 'none'};
 
